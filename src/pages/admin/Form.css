@@ -1,0 +1,161 @@
+/* Form.css */
+
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+.paper {
+    padding: 25px;
+    margin-top: 25px;
+}
+
+.form {
+    width: 100%;
+}
+
+.form-heading {
+    text-align: center;
+    color: var(--blue) !important;
+    margin-bottom: 20px;
+}
+
+.inputField {
+    margin-bottom: 20px;
+}
+
+.fileInput {
+    display: none;
+}
+
+.addMoreButton {
+    margin-top: 10px;
+}
+
+.samplePhotosContainer {
+    margin-top: 10px;
+}
+
+.deleteButton {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+/* Add more styles as needed */
+.btn-m {
+    color: #fff !important;
+    background: var(--blue) !important;
+    /* border: 1px solid var(--); */
+}
+
+.db-fix-h {
+    width: 100%;
+    height: 100dvh;
+    overflow-y: scroll;
+}
+
+.ser-list-cont {
+    width: 100%;
+    height: auto;
+    padding: 25px;
+}
+
+.serr-flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+}
+
+.service-item {}
+
+.service-item {}
+.log-cont{
+    height:fit-content;
+}
+#service-select-label {
+    background: #fff;
+    padding: 0 15px;
+}
+
+.service-item {
+    min-width: 270px;
+    max-width: 30%;
+    overflow: hidden;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.186);
+}
+
+.iif {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+}
+
+.s-img-c {
+    height: 250px;
+    width: 100%;
+    background: red;
+    overflow: hidden;
+}
+
+.service-imag {
+    /* width: ; */
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.service-item:hover .service-imag {
+    transform: scale(1.1);
+}
+
+#modi-imgs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 25px;
+    flex-wrap: wrap;
+
+}
+
+.seq-img {
+    min-width: 270px;
+    border-radius: 12px;
+    max-width: 30%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.186);
+}
+
+.modi-btns>* {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+
+.modi-btns {
+    width: 100%;
+    background: crimson;
+    color: #fff !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.m-left,
+.m-rig {
+    color: #fff !important;
+    background: var(--blue) !important;
+}

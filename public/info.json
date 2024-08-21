@@ -1,0 +1,9 @@
+{
+    "about":"here is About section",
+    "MainSlider":[
+        "/imgs/MainSlider/1.jpg",
+        "/imgs/MainSlider/2.jpg",
+        "/imgs/MainSlider/3.jpg",
+        "/imgs/MainSlider/4.jpg"
+    ]
+}
